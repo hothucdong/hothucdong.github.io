@@ -1,0 +1,109 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header, footer, section, nav{display: block}
+body{
+/*	background: url(https://lh6.googleusercontent.com/-7d_hJwhlVjo/URlHHFtgcAI/AAAAAAAAHPM/QONIqVJU30c/s70/NewBG.png);
+*/
+background-image: url(/img/index.jpeg) repeat: none;
+}
+.container{
+	margin: 0 auto; 
+	width: 950px;
+	font-family: arial;
+	margin-top: 20px;
+}
+h1, h2{
+	color: #333;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	line-height: 1.1em;
+	padding-bottom: 5px;
+	font-size: 28px;
+	text-shadow: 0 1px 0 #fff;
+}
+h2 a{
+	color: #333;
+	text-decoration: none;
+}
+h2 a:hover{
+	color: #333;
+	text-decoration: none;
+	background-color: #81c3de;
+	}
+.nav-top{
+	position: absolute;
+	top: 0;
+	left: 300px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+#nav{
+	overflow: auto;
+	background-color: transparent;
+}
+#nav ul{
+	list-style: none;
+	height: 40px;
+	padding:0px;
+	margin: 0px;
+}	
+#nav ul li{
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+}
+#nav ul li a{
+	color:#ffffff;
+	text-decoration: none;
+	display: block;
+	padding:12px;
+	text-align: center;
+	min-width: 100px;
+}
+#nav ul li a:hover{
+	background-color: #81c3de;
+	color:#333333;
+}
+#footer{
+	border-top: 3px solid #333333;
+}
+.footer-col ul li{ 
+	list-style-type: none;
+}
+#footer-col ul li a{
+	text-decoration: none;
+	color: #333333;
+}
+.footer-bot p{
+	border-top: 2px solid #333333;
+	padding: 20px 0px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-top: -10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
