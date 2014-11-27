@@ -2,23 +2,44 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{post.excerpt}}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section id="benifit">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2">
+      <div class="col-md-4">
+          <div class="wrap-img">
+            <i class="filled-circle fa fa-map-marker"></i>
+          </div>
+          <div class="box-text">
+            <h3><a href="">Real Time Monitor</a></h3>
+            <p>
+            View the location of a single asset in real time – a great feature for close monitoring of individuals and fleets, or manage thousands of devices in real time with our powerful GPS tracking platform.
+            </p>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="wrap-img">
+            <i class="filled-circle fa fa-map-marker"></i>
+          </div>
+          <div class="box-text">
+            <h3><a href="">Real Time Monitor</a></h3>
+            <p>
+            View the location of a single asset in real time – a great feature for close monitoring of individuals and fleets, or manage thousands of devices in real time with our powerful GPS tracking platform.
+            </p>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="wrap-img">
+            <i class="filled-circle fa fa-map-marker"></i>
+          </div>
+          <div class="box-text">
+            <h3><a href="">Real Time Monitor</a></h3>
+            <p>
+            View the location of a single asset in real time – a great feature for close monitoring of individuals and fleets, or manage thousands of devices in real time with our powerful GPS tracking platform.
+            </p>
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>

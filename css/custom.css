@@ -5,9 +5,11 @@
 }
 header, footer, section, nav{display: block}
 body{
-/*	background: url(https://lh6.googleusercontent.com/-7d_hJwhlVjo/URlHHFtgcAI/AAAAAAAAHPM/QONIqVJU30c/s70/NewBG.png);
-*/
+	/*
+	background: url(https://lh6.googleusercontent.com/-7d_hJwhlVjo/URlHHFtgcAI/AAAAAAAAHPM/QONIqVJU30c/s70/NewBG.png);
+
 background-image: url(/img/index.jpeg) repeat: none;
+*/
 }
 .container{
 	margin: 0 auto; 
@@ -35,6 +37,7 @@ h2 a:hover{
 	}
 .nav-top{
 	position: absolute;
+	height: 50px;
 	top: 0;
 	left: 300px;
 	border-radius: 6px;
@@ -43,7 +46,7 @@ h2 a:hover{
 }
 #nav{
 	overflow: auto;
-	background-color: transparent;
+	background-color: #333333;
 }
 #nav ul{
 	list-style: none;
@@ -53,7 +56,7 @@ h2 a:hover{
 }	
 #nav ul li{
 	float: right;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 }
 #nav ul li a{
@@ -71,13 +74,10 @@ h2 a:hover{
 #footer{
 	border-top: 3px solid #333333;
 }
-.footer-col ul li{ 
+.footer-col-wrapper ul li{ 
 	list-style-type: none;
 }
-#footer-col ul li a{
-	text-decoration: none;
-	color: #333333;
-}
+
 .footer-bot p{
 	border-top: 2px solid #333333;
 	padding: 20px 0px;
@@ -88,7 +88,7 @@ h2 a:hover{
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -98,7 +98,7 @@ h2 a:hover{
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  /*background-color: #777;*/
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -106,4 +106,35 @@ h2 a:hover{
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+.glyphicon-icon{
+	font-size: 2.0em;
+
+}
+.page-content{
+	width: 950px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+section{
+	padding: 30px 0px;
+}
+section #benifit{
+	margin-top: 0px;
+	padding-top: 50px;
+	text-align: center;
+}
+.wrap-img i{
+	text-align: center;
+}
+.filled-circle{
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	font-size: 58px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	background: none repeat scroll 0% 0% #f26c4f;
 }
