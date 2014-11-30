@@ -5,7 +5,7 @@
 }
 header, footer, section, nav{display: block}
 body{
-	/*
+/*	
 	background: url(https://lh6.googleusercontent.com/-7d_hJwhlVjo/URlHHFtgcAI/AAAAAAAAHPM/QONIqVJU30c/s70/NewBG.png);
 
 background-image: url(/img/index.jpeg) repeat: none;
@@ -88,7 +88,7 @@ h2 a:hover{
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -101,7 +101,7 @@ h2 a:hover{
   /*background-color: #777;*/
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
@@ -111,18 +111,19 @@ h2 a:hover{
 	font-size: 2.0em;
 
 }
-.page-content{
-	width: 950px;
+/*body*/
+
+.content{
+	width: 100%;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 20px;
+	margin-top: 30px;
 }
 section{
 	padding: 30px 0px;
 }
-section #benifit{
-	margin-top: 0px;
-	padding-top: 50px;
+.content section #benifit{
+	margin-top: 50px;
 	text-align: center;
 }
 .wrap-img i{
@@ -137,4 +138,32 @@ section #benifit{
 	text-align: center;
 	border-radius: 50%;
 	background: none repeat scroll 0% 0% #f26c4f;
+}
+.box-text{
+	padding-top: 30px;
+}
+.box-text h3 a{
+	color: #f26c4f;
+}
+
+section #services{
+	padding-top: 30px;
+}
+#services h1{
+	padding-bottom: 50px;
+}
+#services h3 a{
+	color: #f26c4f;
+}
+#services ul{
+	padding-left: 0px;
+	list-style: outside none none;
+}
+#services img{
+	background-image: none !important;
+	border: none;
+}
+section #showmap{
+	padding-top: 150px;
+	padding-bottom: 350px;
 }
