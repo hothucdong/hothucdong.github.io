@@ -10,10 +10,10 @@ body{
 
 background-image: url(/img/index.jpeg) repeat: none;
 */
-font-family: 'Lato',sans-serif;
+font-family: Arial,Helvetica,sans-serif;
 font-size: 14px;
 color: #333;
-line-height: 1.4;
+line-height: 1.8;
 
 }
 .container{
@@ -212,4 +212,18 @@ section#lineups{
 .img{
 	padding-top: 50px;
 	padding-left: 60px;
+}
+
+/*post*/
+.post{
+	background: url(https://lh6.googleusercontent.com/-7d_hJwhlVjo/URlHHFtgcAI/AAAAAAAAHPM/QONIqVJU30c/s70/NewBG.png);
+	min-height: 100%;
+	min-width: 100%
+}
+.post-content{
+	width: 950px;
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-bottom: 0px;
+	text-align: left;
 }

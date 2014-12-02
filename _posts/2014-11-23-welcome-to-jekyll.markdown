@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_template
 title:  "Welcome to Jekyll!"
 date:   2014-11-23 10:43:56
 categories: jekyll update
