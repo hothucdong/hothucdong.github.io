@@ -226,3 +226,9 @@ section#lineups{
 	padding-left: 300px;
 	padding-bottom: 0px;
 }
+.post-content img{
+	float: right;
+}
+.post-list ul{
+	list-style: none;
+}
